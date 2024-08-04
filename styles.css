@@ -1,0 +1,1137 @@
+@import url('https://fonts.googleapis.com/css2?family=San+Francisco:wght@400;700&display=swap');
+body {
+    background-color: #0d0d0d;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    overflow-y: scroll; /* Enables vertical scrolling */
+    scrollbar-color: black;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.container {
+    width: 980px;
+    min-height: 200%; /* Ensures content is taller than the viewport to enable scrolling */
+    background-color: #0d0d0d;
+    padding: 0px;
+    margin-top: 0px;
+    text-decoration: none;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    scrollbar-color: black;
+}
+
+.navbar a {
+    color: darkgray;
+    text-decoration: none;
+    margin: 0;
+    transition: color 0.3s;
+    font-weight: 400; 
+    margin-left: 15px;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.navbar .logo img {
+    height: 70px;
+    margin-left: 77px;
+    transition: filter 0.3s;
+}
+
+.navbar .logo img:hover {
+    filter: brightness(0.5);
+}
+
+.instagram img {
+    height: 30px;
+    width: 30px;
+    margin-left: -30px;
+    margin-right: 115px;
+}
+
+.instagram img:hover {
+    transition: filter 0.3s;
+    filter: brightness(0.5);
+}
+
+.linkedin img {
+    height: 30px;
+    width: 30px;
+    margin-left: -115px;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.instagram img {
+    height: 30px;
+    width: 30px;
+    margin-left: -30px;
+    margin-right: 115px;
+}
+
+.instagram img:hover {
+    transition: filter 0.3s;
+    filter: brightness(0.5);
+}
+
+.linkedin img {
+    height: 30px;
+    width: 30px;
+    margin-left: -115px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.navbar a {
+    color: darkgray;
+    text-decoration: none;
+    margin: 0;
+    transition: color 0.3s;
+    font-weight: 400; 
+    margin-left: 15px;
+
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.navbar .logo img {
+    height: 70px;
+    margin-left: 77px;
+    transition: filter 0.3s;
+}
+
+.navbar .logo img:hover {
+    filter: brightness(0.5);
+}
+
+.instagram img {
+    height: 30px;
+    width: 30px;
+    margin-left: -30px;
+    margin-right: 115px;
+}
+
+.instagram img:hover {
+    transition: filter 0.3s;
+    filter: brightness(0.5);
+}
+
+.linkedin img {
+    height: 30px;
+    width: 30px;
+    margin-left: -115px;
+    margin-right: 160px;
+}
+
+.linkedin img:hover {
+    transition: filter 0.3s;
+    filter: brightness(0.5);
+}
+
+.headshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 190px;
+    margin-left: 150px;
+    top: -50px
+}
+
+.name {
+    font-size: 40px;
+    margin-top: -280px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600; /* Add this line to make the font bold */
+    margin-left: 150px;
+    letter-spacing: 0.5px;
+}
+
+.about-me {
+    font-size: 18.5px;
+    margin-top: 75px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 250; /* Add this line to make the font bold */
+    margin-left: 150px;
+    line-height: 1.8;
+    max-width: 678px;
+    letter-spacing: 0.5px;
+}
+.major {
+    font-size: 22px;
+    margin-top: -28px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400; /* Add this line to make the font bold */
+    margin-left: 314px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+
+.school {
+    font-size: 27px;
+    margin-top: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 800; /* Add this line to make the font bold */
+    margin-left: 314px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+
+.concentration {
+    font-size: 19px;
+    margin-top: -20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 350; /* Add this line to make the font bold */
+    margin-left: 314px;
+    letter-spacing: 0.5px;
+
+}
+
+.github-widget {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    background-image: url("Images/githubbackground.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+    border-radius: 7px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    color: #000;
+    margin-top: 60px;
+    margin-left: 660px;
+    box-shadow: 0 0 20px #eb8b08;
+    position: relative;
+}
+.instagram-widget:hover {
+    background-color: #000000;
+}
+
+.instagram-widget {
+    display: inline-block;
+    width: 440px;
+    height: 150px; 
+    padding: 20px;
+    background-image: url("Images/instagrambackground1.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+    transform: scaleX(-1);
+    border-radius: 7px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+    text-decoration: none;
+    color: #000;
+    margin-top: -76px; /* Updated margin-top value */
+    margin-left: 150px;
+    top: -268px;
+    position: relative;
+    z-index: 1;
+    bottom: 17px;
+    box-shadow: 0 0 20px #d63f88;
+}
+
+
+.githublogo {
+    height: 30px;
+    width: 30px;
+    margin-left: -15px;
+    margin-top: 100px;
+    margin-right: 115px;
+    filter: invert(1);
+    z-index: 2;
+    position: relative;
+    top: -103px;
+}
+
+.github-name {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: -82px;
+    letter-spacing: 0.5px;
+    position: relative;
+    top: -107px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.github-follow {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    background-color: #141313;
+    margin-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 700px;
+    position: relative;
+    top: -135px;
+    border-radius: 7px;
+    width: 90px;
+    z-index: 1;
+    text-align: center;
+    transition: background-color 0.3s, color 0.1s;
+    box-shadow: 0 0 15px #000000;
+}
+
+.github-follow:hover {
+    background-image: url("Images/githubbutton.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+}
+
+
+.github-projects {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    background-color: #141313;
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 700px;
+    position: relative;
+    top: -178.5px;
+    border-radius: 7px;
+    width: 90px;
+    z-index: 1;
+    text-align: center;
+    transition: background-color 0.3s, color 0.1s;
+    box-shadow: 0 0 15px #000000;
+}
+
+.github-projects:hover {
+    background-image: url("Images/githubbutton.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+}
+
+.github-repositories {
+    font-size: 12px;
+    color: rgb(255, 250, 250);
+    padding: 6px;
+    background-color: #141313;
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 700px;
+    position: relative;
+    top: -108px;
+    border-radius: 7px;
+    width: 90px;
+    z-index: 1;
+    text-align: center;
+    transition: background-image 0.5s, color 0.1s;
+    box-shadow: 0 0 15px #000000;
+}
+
+.github-repositories:hover {
+    background-image: url("Images/githubbutton.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+}
+
+.instagramlogo1 {
+    height: 30px;
+    width: 30px;
+    margin-left: 410px;
+}
+
+.instagram-name {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    transform: scaleX(-1);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300; /* Add this line to make the font bold */
+    letter-spacing: 0.5px;
+    position: relative;
+    top: -8px;
+    margin-left: 360px;
+
+}
+
+.instagram-follow {
+    font-size: 12px;
+    color: #f93d34;
+    padding: 6px;
+    background-color: #ffffff;
+    border:#d63f88 1.5px solid;
+    margin-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 165px;
+    position: relative;
+    top: -350px;
+    border-radius: 7px;
+    width: 90px;
+    z-index: 1;
+    text-align: center;
+    transition: background-color 0.3s, color 0.1s;
+}
+
+.instagram-follow:hover {
+    background-image: url("Images/instagrambackground1.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+    color:#ffffff;
+    border:#ffffff 1.5px solid;
+}
+
+.instagram-post-one img{
+    background-size: contain; /* Ensures the image covers the entire widget */
+    margin-top: 10px;
+    margin-left: 365px;
+    position: relative;
+    top: -510px;
+    border-radius: 7px;
+    height: 63px;
+    width: 112px;
+    text-align: center; 
+    max-height: 90px;
+    transition: filter 0.3s ease;
+    z-index: 2;
+    box-shadow: 0 0 20px #000000;
+}
+
+.instagram-post-one img:hover {
+    filter:brightness(50%)
+}
+
+.instagram-post-two img{
+    background-size: contain; /* Ensures the image covers the entire widget */
+    margin-top: 10px;
+    margin-left: 495px;
+    position: relative;
+    top: -586.5px;
+    border-radius: 7px;
+    height: 63px;
+    width: 112px;
+    z-index: 1;
+    transition: filter 0.3s ease;
+    text-align: center; 
+    max-height: 90px;
+    box-shadow: 0 0 20px #000000;
+}
+
+
+.instagram-post-two img:hover {
+    filter:brightness(50%)
+}
+.instagram-post-three img{
+    background-size: contain;
+    margin-top: 10px;
+    margin-left: 430px;
+    position: relative;
+    top: -583px;
+    border-radius: 7px;
+    height: 63px;
+    width: 112px;
+    z-index: 1;
+    text-align: center; 
+    max-height: 90px;
+    box-shadow: 0 0 15px #000000;
+    transition: filter 0.3s ease; /* Added 's' after 0.3 for seconds */
+}
+
+.instagram-post-three img:hover {
+    filter: brightness(50%);
+    transition: filter 0.3s ease; /* Added transition for hover effect */
+}
+
+.linkedin-widget {
+    display: inline-block;
+    width: 440px;
+    height: 150px;
+    padding: 20px;
+    background-image: url("Images/linkedinbackground.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+    border-radius: 7px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    color: #000;
+    margin-top: -40px;
+    top: -500px;
+    margin-left: 372px;
+    box-shadow: 0 0 20px #0e76a8;
+    position: relative;
+    transform: scaleX(-1);
+}
+
+.linkedin-logo {
+    height: 30px;
+    width: 30px;
+    margin-left: 410px;
+    margin-top: 100px;
+    filter: invert(1);
+    z-index: 2;
+    position: relative;
+    top: -103px;
+    transform: scaleX(-1);
+}
+
+.linkedin-name {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400; /* Add this line to make the font bold */
+    margin-left: 317px;
+    letter-spacing: 0.5px;
+    position: relative;
+    top: -193px;
+    transform: scaleX(-1);
+    width: 125px;
+    white-space: normal; /* Change this line to make the text wrap into multiple lines */
+    display: inline-block; /* Add this line to make the text appear in two lines */
+    text-align: left; /* Add this line to align the text to the left */
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.127); /* Add this line to create a shadow */
+}
+
+.linkedin-headshot {
+    width: auto;
+    height: 120px;
+    border-radius: 10%;
+    position: relative;
+    margin-top: 0px;
+    top: -265px;
+    margin-left: -80px;
+    right: -40px;
+    transform: scaleX(-1);
+    box-shadow: 0 0 12px #ffffff;
+}
+
+.linkedin-connect {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    background-color: #000000;
+    margin-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 385px;
+    position: relative;
+    top: -810px;
+    border-radius: 7px;
+    width: 90px;
+    z-index: 1;
+    text-align: center;
+    transition: background-color 0.3s, color 0.1s;
+    box-shadow: 0 0 15px #0e76a8;
+    transition: filter 0.3s ease;
+}
+
+.linkedin-connect:hover {
+    background-image: url("Images/linkedinbackground.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+}
+
+.email-widget {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    background-image: url("Images/blackandwhite.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+    border-radius: 7px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    color: #000;
+    margin-top: 60px;
+    margin-left: 150px;
+    box-shadow: 0 0 20px #ffffff;
+    position: relative;
+    top: -1257px;
+}
+
+.ksu-logo {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    margin-top: -110px;
+    margin-left: 515px;
+    top: -876px;
+    right: 130px;
+}
+
+.upe-logo {
+    width: 31px;
+    height: 31px;
+    position: relative;
+    margin-top: -15px;
+    margin-left: 515px;
+    top: -892px;
+    right: 100px;
+}
+
+.ksulambdas-logo {
+    width: 33px;
+    height: 33px;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 517px;
+    top: -910px;
+    right: 70px;
+}
+
+.colorstack-logo {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    margin-top: -28px;
+    margin-left: 517px;
+    top: -934.5px;
+    right: 34px;
+}
+
+.linkedin-line1 {
+    font-size: 9px;
+    color: rgb(58, 140, 255);
+    margin-top: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 675px;
+    position: relative;
+    top: -1060px;
+    border-radius: 7px;
+    width: 150px;
+    z-index: 1;
+    text-align: right; /* Add this line to align the text to the right */
+}
+
+.linkedin-line2 {
+    font-size: 9px;
+    color: rgb(58, 140, 255);
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 675px;
+    position: relative;
+    top: -1050px;
+    border-radius: 7px;
+    width: 150px;
+    z-index: 1;
+    text-align: right; /* Add this line to align the text to the right */
+}
+
+.linkedin-line3 {
+    font-size: 9px;
+    color: rgb(58, 140, 255);
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 675px;
+    position: relative;
+    top: -1040px;
+    border-radius: 7px;
+    width: 150px;
+    z-index: 1;
+    text-align: right; /* Add this line to align the text to the right */
+}
+
+.linkedin-line4 {
+    font-size: 9px;
+    color: rgb(58, 140, 255);
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 675px;
+    position: relative;
+    top: -1030px;
+    border-radius: 7px;
+    width: 150px;
+    z-index: 1;
+    text-align: right; /* Add this line to align the text to the right */
+}
+
+.email-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -10px;
+    margin-left: 125px;
+    top: 6px;
+    right: 134px;
+    filter: grayscale(100%) contrast(100%) saturate(50%) ; 
+}
+
+.email-name {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 125px;
+    letter-spacing: 0.5px;
+    position: relative;
+    top: -3px;
+    right: 130px;
+    width: 125px;
+    text-align: left;
+}
+
+.email-button-text {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    background-color: #000000;
+    margin-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550; /* Add this line to make the font bold */
+    margin-left: 16px;
+    position: relative;
+    top: 0px;
+    border-radius: 7px;
+    width: 90px;
+    z-index: 1;
+    text-align: center;
+    transition: background-color 0.3s, color 0.1s;
+    box-shadow: 0 0 15px #000000;
+    right: -5px;
+}
+
+.email-button-text:hover {
+    background-image: url("Images/blackandwhite.jpg");
+    background-size: cover; /* Ensures the image covers the entire widget */
+    background-position: center; /* Centers the image in the widget */
+}
+
+.aboutImageOne {
+    position: relative;
+    right: -100px;
+    width: 230px;
+    top: -80px;
+    border-radius: 10%; /* Add this line to make the image circular */
+}
+
+
+.aboutImageTwo {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 130px;
+    border-radius: 10%; /* Add this line to make the image circular */
+}
+
+.aboutImageThree {
+    width: 230px;
+    margin-bottom: 75px;
+    margin-left: 30px;
+    border-radius: 10%; /* Add this line to make the image circular */
+}
+
+.about-header {
+    font-size: 20px;
+    margin-top: 52px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgrey;
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 97px;
+    letter-spacing: 0.5px;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    margin-top: -45px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 250; /* Add this line to make the font bold */
+    margin-left: 270px;
+    margin-right: 170px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about-header-org {
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgrey;
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 97px;
+    letter-spacing: 0.5px;
+}
+
+.about-paragraph-org {
+    font-size: 20px;
+    margin-top: -45px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 250; /* Add this line to make the font bold */
+    margin-left: 270px;
+    margin-right: 170px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.about-container {
+    width: 980px;
+    padding: 0px;
+    margin-top: 0px;
+    text-decoration: none;
+    overflow-y: scroll;
+    scrollbar-color: rgb(0, 0, 0);
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 70px;
+    margin-left: 270px;
+    border-radius: 50%; /* Change border-radius to 50% to make the image circular */
+    box-shadow: 0 0 10px rgba(38, 38, 38, 0.465); /* Add this line to create a glow effect */
+}
+
+.upe-title {
+    font-size: 12px;
+    margin-top: -60px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.yellow-text{
+    color: #f9d71c;
+}
+
+.upe-position {
+    font-size: 15px;
+    margin-top: -10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgray;
+    font-weight: 200; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.colorstack-title {
+    font-size: 14px;
+    margin-top: -64px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+.colorstack-position{ 
+    font-size: 15px;
+    margin-top: -13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgray;
+    font-weight: 200; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.shpe-title {
+    font-size: 14px;
+    margin-top: -64px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+.shpe-position{
+    font-size: 15px;
+    margin-top: -13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgray;
+    font-weight: 200; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.lambda-title {
+    font-size: 14px;
+    margin-top: -63px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+.lambda-position {
+    font-size: 15px;
+    margin-top: -13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgray;
+    font-weight: 200; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.hsf-title {
+    font-size: 15px;
+    margin-top: -57px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+.hsf-position {
+    font-size: 15px;
+    margin-top: -14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgray;
+    font-weight: 200; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.google-title {
+    font-size: 15px;
+    margin-top: -66px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+.google-position {
+    font-size: 15px;
+    margin-top: -14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgray;
+    font-weight: 200; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.nike-title {
+    font-size: 15px;
+    margin-top: -66px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+.nike-position {
+    font-size: 15px;
+    margin-top: -14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgray;
+    font-weight: 200; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.frye-title {
+    font-size: 15px;
+    margin-top: -57px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+.frye-position {
+    font-size: 15px;
+    margin-top: -14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgray;
+    font-weight: 200; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.ksu-title {
+    font-size: 15px;
+    margin-top: -64px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+.ksu-position {
+    font-size: 15px;
+    margin-top: -14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgray;
+    font-weight: 200; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.googlecerti-title {
+    font-size: 15px;
+    margin-top: -56px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+.googlecert-position {
+    font-size: 15px;
+    margin-top: -14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgray;
+    font-weight: 200; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.harvard-title {
+    font-size: 15px;
+    margin-top: -63px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+.harvard-position {
+    font-size: 15px;
+    margin-top: -34px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgray;
+    font-weight: 200; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.ongoing{
+    font-size: 15px;
+    margin-top: -33px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #00b000;
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.galeo-title {
+    font-size: 15px;
+    margin-top: -54px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+.galeo-position{
+    font-size: 15px;
+    margin-top: -15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: darkgray;
+    font-weight: 200; /* Add this line to make the font bold */
+    margin-left: 360px;
+    letter-spacing: 0.5px;
+}
+
+.projects-container {
+    width: 980px;
+    padding: 0px;
+    margin-top: 0px;
+    text-decoration: none;
+    overflow-y: scroll;
+    scrollbar-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* Adjust the width as needed */
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+    background: #0d0d0d; /* Color of the track */
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(19, 19, 19, 0.333); /* Color of the handle */
+}
+
+/* Scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color when hovered */
+}
